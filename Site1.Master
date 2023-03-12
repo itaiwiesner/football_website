@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="UpdatedFinalProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <table class="center" border="1" style="border: 5px solid" width="100%">
+            <tr>
+                <th>
+                    <%=loginMsg%>
+                </th>
+                <th>
+                    <%= msg %>
+                </th>
+                <th>
+                    <img src="pics/logo.jpg" style= "max-height: 100%;  max-width: 100%;"height="250" width="350"/>
+                </th>
+                <th>
+                    <p id="demo"></p>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+                </th>
+            </tr>
+       </table>
+        
+    <table class="center" border="1" style="border: 5px solid" width="100%">             
+        <tr>
+                <th>
+                    <a href="homepage.aspx">דף הבית</a>
+                </th>
+                <th>
+                    <a href="messi.aspx">לאו מסי</a>
+                </th>
+                <th>
+                    <a href="ronaldo.aspx">כריסטיאנו רונאלדו</a>
+                </th>
+                <th>
+                    <a href="pele.aspx">פלה</a>
+                </th>
+                <th>
+                    <a href ="maradona.aspx">דייגו מראדונה</a>
+                </th>
+            </tr>
+       </table>
+    <h1 style="color: red">הכדורגלנים הגדולים</h1>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+</body>
+</html>

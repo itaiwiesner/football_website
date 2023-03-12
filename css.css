@@ -1,0 +1,61 @@
+﻿div {
+    text-align: right;
+    direction: rtl;
+    font-size: xx-large;
+    font-family: Arial;
+}
+
+th {
+    font-family: Guttman Yad-Brush;
+    font-size: xx-large;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h2, h3 {
+    font-family: Guttman-Aharoni !important;
+}
+
+table, h1, h2, td {
+    text-align: center;
+    direction: rtl;
+}
+
+div, body, form {
+    background-image: url(pics/background.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h3 {
+    color: red !important;
+    font-size: xx-large;
+}
+
+h1, h2 {
+    font-size: 50px;
+}
+form {
+    direction: rtl;
+    text-align: right;
+    float: right;
+    font-family: Arial;
+    font-size: larger;
+}
+img {
+    height: 300px;
+    width: 400px;
+}
+iframe{
+    height:315px;
+    width: 560px; 
+}
+img, iframe {
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
